@@ -1,0 +1,76 @@
+/* Standaard stijl (voor de 'normale' look) */
+/* Bronvermelding: Chatgpt */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  transition: all 1s ease;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#gideon-image {
+  width: 150px;
+  height: auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  text-align: left;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* HACKED Text stijlen */
+#hacked-text {
+  font-size: 50px;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  cursor: pointer; /* Voeg pointer toe zodat je weet dat je erop kunt klikken */
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: black;
+  color: #0f0;
+  font-family: "Courier New", monospace;
+}
+
+body.dark-mode .mystery-button {
+  background-color: black;
+  color: #0f0;
+  border-color: #0f0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+}
